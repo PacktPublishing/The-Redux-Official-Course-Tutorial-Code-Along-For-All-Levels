@@ -1,0 +1,38 @@
+body {
+    background-color: #9deff3;
+    font-family: Arial, sans-serif;
+  }
+  
+  h1, h2 {
+    text-align: center;
+  }
+  
+  .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+  }
+  
+  .movie-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+  }
+
+  .movie-card {
+    width: 250px;
+    margin:10px;
+  }
+  
+  
+  .card-content {
+    padding: 16px;
+  }
+  
+  .card-actions {
+    display: flex;
+    justify-content: space-between;
+  }
